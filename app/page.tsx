@@ -1,6 +1,7 @@
 import { get } from "@vercel/edge-config";
 import Image from "next/image";
 
+// SSR essentially
 export const dynamic = "force-dynamic",
   runtime = "edge";
 

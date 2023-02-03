@@ -24,3 +24,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Kind of a fake api since edge functions support json config as key-value store but works for this use-case
 https://vercel.com/docs/concepts/edge-network/edge-config
+`vc env pull .env.local` to pull vercel env edge config into an .env.local file
